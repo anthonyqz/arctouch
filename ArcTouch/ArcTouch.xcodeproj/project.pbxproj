@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		471545C81DD8C83E0051629B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545C71DD8C83E0051629B /* AppDelegate.swift */; };
+		471545CD1DD8C83E0051629B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471545CB1DD8C83E0051629B /* Main.storyboard */; };
+		471545CF1DD8C83E0051629B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 471545CE1DD8C83E0051629B /* Assets.xcassets */; };
+		471545D21DD8C83E0051629B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 471545D01DD8C83E0051629B /* LaunchScreen.storyboard */; };
+		471545E21DD8C88B0051629B /* UpcomingMoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545DE1DD8C88B0051629B /* UpcomingMoviesTableViewController.swift */; };
+		471545E51DD8C89F0051629B /* ArcTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 471545E31DD8C89F0051629B /* ArcTouch.xcdatamodeld */; };
+		471545E71DD8CB8D0051629B /* ArcWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545E61DD8CB8D0051629B /* ArcWebServices.swift */; };
+		471545E91DD8CBF10051629B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545E81DD8CBF10051629B /* Constants.swift */; };
+		471545EB1DD8D68B0051629B /* ArcUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545EA1DD8D68B0051629B /* ArcUtil.swift */; };
+		471545EE1DD914FD0051629B /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545ED1DD914FD0051629B /* MovieTableViewCell.swift */; };
+		471545F11DD9167C0051629B /* Genre+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545EF1DD9167C0051629B /* Genre+CoreDataClass.swift */; };
+		471545F21DD9167C0051629B /* Genre+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545F01DD9167C0051629B /* Genre+CoreDataProperties.swift */; };
+		471545F41DD9172C0051629B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545F31DD9172C0051629B /* Extensions.swift */; };
+		471545FB1DD91C320051629B /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545F91DD91C320051629B /* Movie+CoreDataClass.swift */; };
+		471545FC1DD91C320051629B /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545FA1DD91C320051629B /* Movie+CoreDataProperties.swift */; };
+		471545FE1DD92E370051629B /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471545FD1DD92E370051629B /* MovieDetailViewController.swift */; };
+		C9132135AAE51BD92AE86114 /* Pods_ArcTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEB449EF2E5FFAED3D033FF /* Pods_ArcTouch.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		471545C41DD8C83E0051629B /* ArcTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		471545C71DD8C83E0051629B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		471545CC1DD8C83E0051629B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		471545CE1DD8C83E0051629B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		471545D11DD8C83E0051629B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		471545D31DD8C83E0051629B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471545DE1DD8C88B0051629B /* UpcomingMoviesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingMoviesTableViewController.swift; sourceTree = "<group>"; };
+		471545E41DD8C89F0051629B /* ArcTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArcTouch.xcdatamodel; sourceTree = "<group>"; };
+		471545E61DD8CB8D0051629B /* ArcWebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcWebServices.swift; sourceTree = "<group>"; };
+		471545E81DD8CBF10051629B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		471545EA1DD8D68B0051629B /* ArcUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcUtil.swift; sourceTree = "<group>"; };
+		471545ED1DD914FD0051629B /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		471545EF1DD9167C0051629B /* Genre+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Genre+CoreDataClass.swift"; sourceTree = "<group>"; };
+		471545F01DD9167C0051629B /* Genre+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Genre+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		471545F31DD9172C0051629B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		471545F91DD91C320051629B /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		471545FA1DD91C320051629B /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		471545FD1DD92E370051629B /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		6A15BC597D3FA13F4F07B1F8 /* Pods-ArcTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		95067781393CA6F4B916F8A5 /* Pods-ArcTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch.release.xcconfig"; sourceTree = "<group>"; };
+		CFEB449EF2E5FFAED3D033FF /* Pods_ArcTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArcTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		471545C11DD8C83E0051629B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9132135AAE51BD92AE86114 /* Pods_ArcTouch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C721979E7BEEAE19BBAC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A15BC597D3FA13F4F07B1F8 /* Pods-ArcTouch.debug.xcconfig */,
+				95067781393CA6F4B916F8A5 /* Pods-ArcTouch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E4A4099C740483FD2570AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFEB449EF2E5FFAED3D033FF /* Pods_ArcTouch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471545BB1DD8C83E0051629B = {
+			isa = PBXGroup;
+			children = (
+				471545C61DD8C83E0051629B /* ArcTouch */,
+				471545C51DD8C83E0051629B /* Products */,
+				06C721979E7BEEAE19BBAC0E /* Pods */,
+				2E4A4099C740483FD2570AC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		471545C51DD8C83E0051629B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				471545C41DD8C83E0051629B /* ArcTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		471545C61DD8C83E0051629B /* ArcTouch */ = {
+			isa = PBXGroup;
+			children = (
+				471545C71DD8C83E0051629B /* AppDelegate.swift */,
+				471545E81DD8CBF10051629B /* Constants.swift */,
+				471545D91DD8C88B0051629B /* Services */,
+				471545DA1DD8C88B0051629B /* Model */,
+				471545DD1DD8C88B0051629B /* ViewController */,
+				471545DF1DD8C88B0051629B /* Utility */,
+				471545CB1DD8C83E0051629B /* Main.storyboard */,
+				471545CE1DD8C83E0051629B /* Assets.xcassets */,
+				471545D01DD8C83E0051629B /* LaunchScreen.storyboard */,
+				471545D31DD8C83E0051629B /* Info.plist */,
+			);
+			path = ArcTouch;
+			sourceTree = "<group>";
+		};
+		471545D91DD8C88B0051629B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				471545E61DD8CB8D0051629B /* ArcWebServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		471545DA1DD8C88B0051629B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				471545E31DD8C89F0051629B /* ArcTouch.xcdatamodeld */,
+				471545F91DD91C320051629B /* Movie+CoreDataClass.swift */,
+				471545FA1DD91C320051629B /* Movie+CoreDataProperties.swift */,
+				471545EF1DD9167C0051629B /* Genre+CoreDataClass.swift */,
+				471545F01DD9167C0051629B /* Genre+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		471545DD1DD8C88B0051629B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				471545EC1DD914D60051629B /* Cells */,
+				471545DE1DD8C88B0051629B /* UpcomingMoviesTableViewController.swift */,
+				471545FD1DD92E370051629B /* MovieDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		471545DF1DD8C88B0051629B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				471545EA1DD8D68B0051629B /* ArcUtil.swift */,
+				471545F31DD9172C0051629B /* Extensions.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		471545EC1DD914D60051629B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				471545ED1DD914FD0051629B /* MovieTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		471545C31DD8C83E0051629B /* ArcTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 471545D61DD8C83E0051629B /* Build configuration list for PBXNativeTarget "ArcTouch" */;
+			buildPhases = (
+				05260637BF844BF26576A8FF /* [CP] Check Pods Manifest.lock */,
+				471545C01DD8C83E0051629B /* Sources */,
+				471545C11DD8C83E0051629B /* Frameworks */,
+				471545C21DD8C83E0051629B /* Resources */,
+				03CBA9BD764C855660238513 /* [CP] Embed Pods Frameworks */,
+				1F0B3A80DF5BD596317B28B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcTouch;
+			productName = ArcTouch;
+			productReference = 471545C41DD8C83E0051629B /* ArcTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		471545BC1DD8C83E0051629B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ca9z;
+				TargetAttributes = {
+					471545C31DD8C83E0051629B = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 471545BF1DD8C83E0051629B /* Build configuration list for PBXProject "ArcTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 471545BB1DD8C83E0051629B;
+			productRefGroup = 471545C51DD8C83E0051629B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				471545C31DD8C83E0051629B /* ArcTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		471545C21DD8C83E0051629B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471545D21DD8C83E0051629B /* LaunchScreen.storyboard in Resources */,
+				471545CF1DD8C83E0051629B /* Assets.xcassets in Resources */,
+				471545CD1DD8C83E0051629B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03CBA9BD764C855660238513 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05260637BF844BF26576A8FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F0B3A80DF5BD596317B28B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArcTouch/Pods-ArcTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		471545C01DD8C83E0051629B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				471545E51DD8C89F0051629B /* ArcTouch.xcdatamodeld in Sources */,
+				471545EE1DD914FD0051629B /* MovieTableViewCell.swift in Sources */,
+				471545C81DD8C83E0051629B /* AppDelegate.swift in Sources */,
+				471545EB1DD8D68B0051629B /* ArcUtil.swift in Sources */,
+				471545FE1DD92E370051629B /* MovieDetailViewController.swift in Sources */,
+				471545FC1DD91C320051629B /* Movie+CoreDataProperties.swift in Sources */,
+				471545E91DD8CBF10051629B /* Constants.swift in Sources */,
+				471545F41DD9172C0051629B /* Extensions.swift in Sources */,
+				471545F11DD9167C0051629B /* Genre+CoreDataClass.swift in Sources */,
+				471545F21DD9167C0051629B /* Genre+CoreDataProperties.swift in Sources */,
+				471545E21DD8C88B0051629B /* UpcomingMoviesTableViewController.swift in Sources */,
+				471545FB1DD91C320051629B /* Movie+CoreDataClass.swift in Sources */,
+				471545E71DD8CB8D0051629B /* ArcWebServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		471545CB1DD8C83E0051629B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471545CC1DD8C83E0051629B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		471545D01DD8C83E0051629B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				471545D11DD8C83E0051629B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		471545D41DD8C83E0051629B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		471545D51DD8C83E0051629B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		471545D71DD8C83E0051629B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A15BC597D3FA13F4F07B1F8 /* Pods-ArcTouch.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArcTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ca9z.ArcTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		471545D81DD8C83E0051629B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95067781393CA6F4B916F8A5 /* Pods-ArcTouch.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ArcTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ca9z.ArcTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		471545BF1DD8C83E0051629B /* Build configuration list for PBXProject "ArcTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471545D41DD8C83E0051629B /* Debug */,
+				471545D51DD8C83E0051629B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		471545D61DD8C83E0051629B /* Build configuration list for PBXNativeTarget "ArcTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				471545D71DD8C83E0051629B /* Debug */,
+				471545D81DD8C83E0051629B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		471545E31DD8C89F0051629B /* ArcTouch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				471545E41DD8C89F0051629B /* ArcTouch.xcdatamodel */,
+			);
+			currentVersion = 471545E41DD8C89F0051629B /* ArcTouch.xcdatamodel */;
+			path = ArcTouch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 471545BC1DD8C83E0051629B /* Project object */;
+}

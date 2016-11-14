@@ -1,0 +1,6 @@
+framework module Pods_ArcTouch {
+  umbrella header "Pods-ArcTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}

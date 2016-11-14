@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - PKHUD (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0.1)
+  - AlamofireImage (~> 3.1.0)
+  - MagicalRecord (~> 2.3.2)
+  - PKHUD (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  PKHUD: 2bb45c936bb8afa39f3cd33ec14e8cc89f624255
+
+PODFILE CHECKSUM: 9c06f26e817c18a9fec7361ffa7eb9bd86dc2156
+
+COCOAPODS: 1.1.1
